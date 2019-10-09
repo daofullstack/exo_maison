@@ -43,12 +43,14 @@ o	En termes de gouttes d'eau, ce serait un simple "Plong".
 o	En termes de gouttes d'eau, ce serait un "PlingPlang".
 •	34 a quatre facteurs: 1, 2, 17 et 34.
 •	En termes de gouttes d'eau, ce serait "34".
-  •	                  var foo=34;
-  •	                  (foo % 3 ==0 )? ((foo % 5 ==0 )? 
-  •	                      ( (foo % 7 ==0 )? print("pling plong plang"): print("pling plong"))
-  •	                        :( foo % 7==0)? print("pling plang"):print("pling"))
-  •	                  :(foo % 5 ==0)? (( foo % 7==0)? print("plong plang") :print("plong")) 
-  •	                  :(foo % 7 ==0)? print("plang"): print(foo);
+              
+                 var foo=34;
+                   (foo % 3 ==0 )? ((foo % 5 ==0 )? 
+                        ( (foo % 7 ==0 )? print("pling plong plang"): print("pling plong"))
+                          :( foo % 7==0)? print("pling plang"):print("pling"))
+                    :(foo % 5 ==0)? (( foo % 7==0)? print("plong plang") :print("plong")) 
+  	                  :(foo % 7 ==0)? print("plang"): print(foo);
+                     
 
 *******************************************************************************************
 ##Exercice 4 : 
